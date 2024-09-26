@@ -1,0 +1,28 @@
+.footer {
+    padding: 20px 0px; 
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #939EB4;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav ul {
+    display: flex;
+}
+
+.footer-nav li.nav-item {
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.header-nav li.nav-item:last-of-type {
+    margin-right: 0;
+}   

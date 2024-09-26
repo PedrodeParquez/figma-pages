@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'ChangaOne';
+    src: url("ChangaOne-Regular.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ChangaOne';
+    src: url("ChangaOne-Italic.ttf") format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
