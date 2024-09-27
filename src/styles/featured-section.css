@@ -1,0 +1,88 @@
+.featured-section { 
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 90px;
+    padding: 120px 160px;
+    border-radius: 8px;
+}
+
+.featured-image img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.featured-blurb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 2%;
+    max-width: 40%;
+}
+
+.featured-button {
+    display: flex;
+    align-items: center;
+    color: #8A53FF;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Roboto;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 0px;
+    text-align: left;
+}
+
+.featured-text {
+    margin-bottom: 20px;
+}
+
+.featured-text-category {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Roboto;
+    color: #8A53FF;
+    margin-bottom: 10px;
+}
+
+.featured-text-title {
+    font-size: 39px;
+    font-weight: normal;
+    font-family: "ChangaOne";
+    color: #434343;
+    margin-bottom: 20px;
+}
+
+.featured-text-description {
+    font-size: 18px;
+    width: 90%;
+    font-weight: normal;
+    font-family: Roboto;
+    color: #434343;
+}
+
+.button-icons {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+}
+
+.button-icons img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.button-icons img:first-child {
+    z-index: 1;
+}
+
+.button-icons img:last-child {
+    padding: 10px 6px 10px 10px;
+    z-index: 2;
+}
