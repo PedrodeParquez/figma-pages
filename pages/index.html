@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="../src/styles/recent-section.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header"ы>
         <div class="container">
             <div class="header-row">
                 <div class="header-logo">
@@ -27,8 +27,8 @@
                 </div>
                 <nav class="header-nav">
                     <ul>    
-                        <li class="nav-item"><a href="#">Home</a></li>
-                        <li class="nav-item"><a href="#">Story</a></li>
+                        <li class="nav-item"><a href="/pages/index.html">Home</a></li>
+                        <li class="nav-item"><a href="/pages/story-page.html">Story</a></li>
                         <li class="nav-item"><a href="#">Gallery</a></li>
                         <li class="nav-item"><a href="#">Contact Us</a></li>
                         <li class="icon-item"><a href="#"><img src="../src/images/header/search_icon.png"></a></li>
@@ -87,7 +87,7 @@
                 <div class="discover-card-column">
                     <div class="discover-card">
                         <div class="discover-card-image-wrapper">
-                            <img src="/src/images/discover/iceland_photo.jfif" alt="Iceland">
+                            <img src="/src/images/discover/iceland_photo.jfif">
                         </div>
                         <div class="discover-card-text">Iceland</div>
                         <div class="discover-card-link">Discover</div>
@@ -96,7 +96,7 @@
                 <div class="discover-card-column">
                     <div class="discover-card">
                         <div class="discover-card-image-wrapper">
-                            <img src="/src/images/discover/italy_photo.jfif" alt="Italy">
+                            <img src="/src/images/discover/italy_photo.jfif">
                         </div>
                         <div class="discover-card-text">Italy</div>
                         <div class="discover-card-link">Discover</div>
@@ -105,7 +105,7 @@
                 <div class="discover-card-column">
                     <div class="discover-card">
                         <div class="discover-card-image-wrapper">
-                            <img src="/src/images/discover/dubai_photo.jfif" alt="Dubai">
+                            <img src="/src/images/discover/dubai_photo.jfif">
                         </div>
                         <div class="discover-card-text">Dubai</div>
                         <div class="discover-card-link">Discover</div>
@@ -114,7 +114,7 @@
                 <div class="discover-card-column">
                     <div class="discover-card">
                         <div class="discover-card-image-wrapper">
-                            <img src="/src/images/discover/patagonia_photo.jfif" alt="Patagonia">
+                            <img src="/src/images/discover/patagonia_photo.jfif">
                         </div>
                         <div class="discover-card-text">Patagonia</div>
                         <div class="discover-card-link">Discover</div>
@@ -124,41 +124,101 @@
         </div>
     </div>         
     <div class="share-section">
-        <div class="container">
-            <div class="share-form-header-title">
-                <div class="share-form-header-subtext">LET’S BUILD A COMMUNITY</div>
-                <div class="share-form-header-title">Join our next destination</div>
-            </div>
+        <div class="share-form-header">
+            <div class="share-form-header-subtext">LET’S BUILD A COMMUNITY</div>
+            <div class="share-form-header-title">Join our next destination</div>
+        </div>
+        <div class="share-container">
             <div class="share-form-text">
                 <div class="share-form-text-share">Share your travels</div>
                 <div class="share-form-text-suggest">Suggest a new travel destination that you want to see and we will feature it in our blog.</div>
             </div>
-        </div>
-    </div>
-    <div class="recent-section">
-        <div class="container">
-            <div class="recent-text-row">
-                <h2 class="recent-subtitle">CATCH UP TO OUR POSTS</h2>
-                <h1 class="recent-title">Recent story entries</h1>
-            </div>
-            <div class="recent-story-block">
-                <div class="recent-story-block-left">
-
+            <form class="share-form-fields">
+                <div class="field">
+                    <input type="text" placeholder="Destination name" required>
                 </div>
-                <div class="recent-story-block-right">
-
+                <div class="field">
+                    <select required>
+                        <option>Country of Destination</option>
+                        <option>Russia</option>
+                        <option>China</option>
+                        <option>Kazakhstan</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <input type="text" placeholder="Your name" required>
+                </div>
+                <div class="field">
+                    <select required>
+                        <option>Shooting category</option>
+                        <option>Landscape</option>
+                        <option>Architecture</option>
+                        <option>Reportage</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <textarea placeholder="Describe what kind of photos you want to focus on" required></textarea>
+                </div>
+                <div class="share-form-button">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>        
+    <div class="recent-entries-section">
+        <div class="recent-entries-header">
+            <div class="recent-entries-subtext">CATCH UP TO OUR POSTS</div>
+            <div class="recent-entries-title">Recent story entries</div>
+        </div>
+        <div class="recent-entries-container">
+            <div class="main-entry">
+                <img src="/src/images/recent/zermatt_photo.jfif">
+                <div class="main-entry-content">
+                    <div class="entry-text">
+                        <div class="entry-title">Zermatt, Switzerland</div>
+                        <div class="entry-description">Marvel on the beauty of the iconic Matterhorn. Find the best places to stay that has the best views of this peak...</div>
+                    </div>
+                    <div class="entry-button">
+                        <div class="button-container">
+                            <img class="back-icon" src="/src/images/recent/circle.svg">
+                            <img class="top-icon" src="/src/images/recent/start.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="side-entries">
+                <div class="side-entry">
+                    <img src="/src/images/recent/tuscany_photo.jfif">
+                    <div class="side-entry-content">
+                        <div class="entry-title">Tuscany, Italy</div>
+                        <div class="entry-description">The amazing Tuscany is home to famous Renaissance art and architecture and a vast scenic landscape. <a href="#">view full blog...</a></div>
+                    </div>
+                </div>
+                <div class="side-entry">
+                    <img src="/src/images/recent/kyoto_photo.jfif">
+                    <div class="side-entry-content">
+                        <div class="entry-title">Kyoto, Japan</div>
+                        <div class="entry-description">Kyoto is well known for its temples, gardens, Shinto shrines and wooden houses. It’s time to visit Tokyo. <a href="#">view full blog...</a></div>
+                    </div>
+                </div>
+                <div class="side-entry">
+                    <img src="/src/images/recent/lofoten_islands_photo.jfif">
+                    <div class="side-entry-content">
+                        <div class="entry-title">Lofoten Islands, Norway</div>
+                        <div class="entry-description">Featuring razor-sharp peaks housing the arctic landscape. This astonishing island is perfect for your next postcard. <a href="#">view full blog...</a></div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>                 
     <footer class="footer">
         <div class="container">
             <div class="footer-row">
                 <div>© 2022, Talking Travel. All Rights Reserved.</div>
                 <nav class="footer-nav">
                     <ul>
-                        <li class="nav-item"><a href="#">Home</a></li>
-                        <li class="nav-item"><a href="#">Story</a></li>
+                        <li class="nav-item"><a href="/pages/index.html">Home</a></li>
+                        <li class="nav-item"><a href="/pages/story-page.html">Story</a></li>
                         <li class="nav-item"><a href="#">Gallery</a></li>        
                         <li class="nav-item"><a href="#">Contact Us</a></li>
                     </ul>
