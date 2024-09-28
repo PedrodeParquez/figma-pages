@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'BlackSignature';
-    src: url("BlackSignature.otf") format('opentype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Black Signature PERSONAL USE ONLY';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Black Signature PERSONAL USE ONLY'), url('https://fonts.cdnfonts.com/s/65636/BlackSignaturePersonalUseOnlyRegular-DOyj1.woff') format('woff');
 }
