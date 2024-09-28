@@ -1,6 +1,6 @@
 .header {
     padding: 20px 0px; 
-    
+    box-shadow: 0px 4px 16px 0px #0000000A;
 }
 
 .header-row {
@@ -27,7 +27,7 @@
     margin-right: 0;
 }
 
-.header-nav li.nav-item:first-of-type {
+.header-nav li.nav-item span {
     color: #8A53FF;
 }
 
