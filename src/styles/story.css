@@ -1,0 +1,147 @@
+.story-section {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero-header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    color: #8A53FF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hero-title {
+    font-size: 50px;
+    font-family: ChangaOne;
+}
+
+.main-image-container {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.main-image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.overlay-text {
+    color: white;
+    font-size: 80px;
+    font-family: 'Black Signature PERSONAL USE ONLY';
+    padding-bottom: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.story-content {
+    margin-bottom: 20px;
+}
+
+.story-content-title {
+    font-family: ChangaOne;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.story-content-text {
+    line-height: 26px;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.disclaimer-section {
+    background-color: #FAFAFA;
+    font-family: Roboto;
+    margin-top: 40px;
+    line-height: 26px;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.disclaimer-title {
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.disclaimer-text {
+    font-weight: normal;
+}
+
+.text-block {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.highlights-section {
+    margin-bottom: 20px;
+}
+
+.highlights-title {
+    font-family: ChangaOne;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.highlight-images {
+    display: flex;
+    gap: 30px;
+}
+
+.highlight {
+    flex: 1;
+    text-align: center;
+}
+
+.highlight-column {
+    flex: 1;
+}
+
+.highlight-column img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.highlight-column-text {
+    font-size: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: italic;
+    color: #828181;
+    margin-top: 15px;
+}
